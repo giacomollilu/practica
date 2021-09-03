@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+body{
+	background-color: #000000;
+	font-family: 'Work Sans', sans-serif;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family:'Work Sans', sans-serif;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: arial;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.foto1 {
+	filter: blur(3px) grayscale(2);
+}
+
+.foto2 {
+	filter: brightness(2) saturate(3);
+}
+
+.multifondo {
+	width: 960px;
+	height: 640px; 
+	background-image: url(../img/dados.png),
+	url(../img/mesa.jpg);
+}
+
+#columnas {
+	column-count: 4;
+	column-gap: 50px;
+	column-rule: 2px solid #219ebc;
+}
+
+.bordes {
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+
+.sombra {
+	width: 960px;
+	height: 640px;
+	background-color: #f8edeb;
+	box-shadow: 20px 20px 10px #ffafcc,
+				25px 25px 20px #f72585,
+				inset 40px 40px 30px #cdb4db;
+}
+
+.transparencia {
+	width: 960px;
+	height: 640px;
+	background: rgba(80, 106, 212, 0.3);
+}
+
+.degradado {
+	width: 960px;
+	height: 640px;
+	background: rgb(63,171,251);
+	background: linear-gradient(14deg, rgba(63,171,251,1) 0%, rgba(252,70,107,1) 100%);
+
+
+}
